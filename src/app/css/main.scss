@@ -445,3 +445,181 @@
         }
     }
 }
+@media only screen and (max-width:743px){
+    .video_box{
+        #video_desktop{
+            display: none;
+        }
+        #vide_mobile{
+            display: block;
+        }
+        #logo{
+            width: 100px;
+            height: 80px;
+        }
+    }
+    .section_two{
+        .stwo_box{
+            width: 100%;
+            padding-left: 20px;
+            left: 0;
+            h2{
+                font-size: 38px;
+                line-height: 38px;
+                margin-bottom: 10px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .section_three{
+        background-position: left -220px center;
+        .cases_btn{
+            width: 220px;
+            height: 100px;
+            top: 28%;
+        }
+        .sthree_box{
+            .sthree_ctr{
+                display: flex;
+                width: -moz-max-content;
+                width: max-content;
+                padding: 0;
+            }
+            .sthree_img_box{
+                margin: 0 10px;
+                width: 140px;
+                height: 140px;
+            }
+        }
+    }
+    .section_four{
+        .sfour_box{
+            font-size: 20px;
+            max-width: calc(100% - 40px);
+            margin: 0 auto;
+        }
+    }
+    .section_five{
+        display: none;
+    }
+    .section_six{
+        height: 100vh;
+        overflow: hidden;
+        background: url('../../../public/images/building.png') no-repeat center / cover;
+        h2{
+            width: 100%;
+            padding-left: 0;
+            font-size: 52px;
+            line-height: 52px;
+            padding-right: 20px;
+        }
+        .ssix_box{
+            display: block;
+        }
+        .ssix_ctr{
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .reasons_box{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            vertical-align: middle;
+            white-space: normal;
+            margin: 0 10px;
+            padding: 0 15px;
+            .rb_ctr{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width: 170px;
+                height: 200px;
+            }
+            span{
+                font-size: 46px;
+            }
+            p{
+                font-size: 14px;
+            }
+            br{
+                display: none;
+            }
+        }
+    }
+    .section_seven{
+        img.hero{
+            width: 140px;
+            height: 140px;
+            z-index: 1;
+        }
+        .contact_btn{
+            top: 25%;
+            right: 3%;
+            font-size: 12px;
+        }
+        .map_point{
+            height: 36px;
+            display: block;
+            &.hk{
+                width: auto;
+                top: 2%;
+                left: 43%;
+                z-index: 10;
+            }
+            &.th{
+                width: auto;
+                top: 17%;
+                left: 10%;
+                z-index: 10;
+            }
+            &.vn{
+                top: 32%;
+                left: 27%;
+                width: auto;
+                z-index: 10;
+            }
+            &.my{
+                width: auto;
+                top: 46%;
+                left: 13%;
+                z-index: 10;
+            }
+            &.sg{
+                width: auto;
+                left: 26%;
+                z-index: 10;
+            }
+            &.id{
+                width: auto;
+                left: 28%;
+                z-index: 10;
+            }
+            .mp_thumb{
+                width: 36px;
+                height: 36px;
+                font-size: 14px;
+                position: relative;
+            }
+            .mp_detail{
+                height: 36px;
+                font-size: 10px;
+            }
+        }
+    }
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+}

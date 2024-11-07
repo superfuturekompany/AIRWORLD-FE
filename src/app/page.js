@@ -47,8 +47,11 @@ export default function Home() {
       <main>
         <div className="video_box">
           <h1 id="logo">Airworld</h1>
-          <video autoPlay muted loop>
+          <video autoPlay muted loop id="video_desktop">
             <source src="/video/video.mp4" type="video/mp4" />
+          </video>
+          <video autoPlay muted loop id="video_mobile">
+            <source src="/video/video_mobile.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="section_two">
@@ -185,50 +188,66 @@ export default function Home() {
             <div className="ssix_ctr">
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>5</span>
-              <p>years in operation.</p>
+                <div className="rbc_box">
+                <span>5</span>
+                <p>years in operation.</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>7</span>
-              <p>offices, serving the World from <br/>Dubai, Hong Kong, Indonesia, <br/>Malaysia, Singapore, <br/>Thailand, Vietnam.</p>
+                <div className="rbc_box">
+                <span>7</span>
+                <p>offices, serving the World from <br/>Dubai, Hong Kong, Indonesia, <br/>Malaysia, Singapore, <br/>Thailand, Vietnam.</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>3</span>
-              <p>R&D Hubs in Indonesia, <br/>Malaysia, Thailand</p>
+                <div className="rbc_box">
+                <span>3</span>
+                <p>R&D Hubs in Indonesia, <br/>Malaysia, Thailand</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>&gt; 10</span>
-              <p>IP and material rights partnerships which includes Bandai, Cocomelon, Disney, Emperor Ent. Group, Hasbro, Lego, Line Friends, Moov, Sanrio, Viu.</p>
+                <div className="rbc_box">
+                <span>&gt; 10</span>
+                <p>IP and material rights partnerships which includes Bandai, Cocomelon, Disney, Emperor Ent. Group, Hasbro, Lego, Line Friends, Moov, Sanrio, Viu.</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>63</span>
-              <p>data analysts, AI engineers, UI/UX designers, developers, DevOps, animators, creators</p>
+                <div className="rbc_box">
+                <span>63</span>
+                <p>data analysts, AI engineers, UI/UX designers, developers, DevOps, animators, creators</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>&gt; 203</span>
-              <p>campaigns and projects <br/>ran to date.</p>
+                <div className="rbc_box">
+                <span>&gt; 203</span>
+                <p>campaigns and projects <br/>ran to date.</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>27</span>
-              <p>active clients</p>
+                <div className="rbc_box">
+                <span>27</span>
+                <p>active clients</p>
+                </div>
               </div>
             </div>
             <div className="reasons_box">
               <div className="rb_ctr">
-              <span>7</span>
-              <p>institution investors <br/>and family offices</p>
+                <div className="rbc_box">
+                <span>7</span>
+                <p>institution investors <br/>and family offices</p>
+                </div>
               </div>
             </div>
             </div>
