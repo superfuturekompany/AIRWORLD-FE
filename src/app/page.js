@@ -71,7 +71,7 @@ export default function Home() {
           <video ref={videoDesktopRef} autoPlay muted id="video_desktop">
             <source src="/video/video.mp4" type="video/mp4" />
           </video>
-          <video ref={videoMobileRef} autoPlay muted id="video_mobile">
+          <video ref={videoMobileRef} autoPlay muted playsInline id="video_mobile">
             <source src="/video/video_mobile.mp4" type="video/mp4" />
           </video>
           {showEnterBtn && (
